@@ -3,7 +3,7 @@ Description=Maximize Jetson Performance
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/jetson_clocks --fan
+ExecStart=/usr/bin/jetson_clocks
 
 [Install]
 WantedBy=multi-user.target
